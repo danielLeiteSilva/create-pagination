@@ -1,3 +1,3 @@
 # Função para criar uma paginação de listas com objetos
 
-![SonarCloud](https://sonarcloud.io/project/overview?id=danielLeiteSilva_create-pagination)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=danielLeiteSilva_api-mega-sena&metric=bugs)](https://sonarcloud.io/summary/new_code?id=danielLeiteSilva_api-mega-sena)
