@@ -1,0 +1,46 @@
+{
+  "name": "paginacao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "nyc": "^15.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^9.2.1"
+  },
+  "scripts": {
+    "test:coverage": "npm run test",
+    "test": "nyc --cache mocha *.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielLeiteSilva/create-pagination.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielLeiteSilva/create-pagination/issues"
+  },
+  "homepage": "https://github.com/danielLeiteSilva/create-pagination#readme",
+  "nyc": {
+    "check-coverage": true,
+    "statements": 80,
+    "functions": 80,
+    "lines": 80,
+    "reporter": [
+      "html",
+      "text",
+      "lcov"
+    ],
+    "include": [
+    ],
+    "exclude": [
+    ],
+    "extension": [
+    ],
+    "require": []
+  }
+}
