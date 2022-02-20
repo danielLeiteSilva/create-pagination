@@ -4,7 +4,7 @@ class Pagination {
 
     /**
      * @param {Array} listOfObjects - One list of objects for paginate
-     * @param {Number} mountPages - Number of page and mount files per page
+     * @param {Number} mountPages - Number max of files per page
      */
 
     constructor(listOfObjects, mountPages) {
@@ -25,7 +25,6 @@ class Pagination {
     }
 
     paginationJson() {
-
         this.convertFileInJson()
 
         let list = []
@@ -33,19 +32,15 @@ class Pagination {
 
         let q = this._mountPages
         let aux = 0
-
         for (let index = 0; index < qtdPag; index++) {
-
             let data = this._jsonConverted.slice(aux, q)
             list.push(data)
             aux = q
             q = q + this._mountPages
-
         }
 
         this._countPages = list.length
         this._allPages = list
-
     }
 
     getResultJson() {
