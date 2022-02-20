@@ -1,5 +1,7 @@
 # Função para criar uma paginação de listas com objetos
 
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-black.svg)](https://sonarcloud.io/summary/new_code?id=danielLeiteSilva_create-pagination)
+
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=danielLeiteSilva_create-pagination&metric=bugs)](https://sonarcloud.io/summary/new_code?id=danielLeiteSilva_create-pagination)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=danielLeiteSilva_create-pagination&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=danielLeiteSilva_create-pagination)
 [![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=danielLeiteSilva_create-pagination&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=danielLeiteSilva_create-pagination)
