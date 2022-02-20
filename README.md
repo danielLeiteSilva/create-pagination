@@ -7,7 +7,6 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=danielLeiteSilva_create-pagination&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=danielLeiteSilva_create-pagination)
 [![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=danielLeiteSilva_create-pagination&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=danielLeiteSilva_create-pagination)
 [![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=danielLeiteSilva_create-pagination&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=danielLeiteSilva_create-pagination)
-[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=danielLeiteSilva_create-pagination&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=danielLeiteSilva_create-pagination)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=danielLeiteSilva_create-pagination&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=danielLeiteSilva_create-pagination)
 
 
