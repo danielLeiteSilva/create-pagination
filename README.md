@@ -1,6 +1,6 @@
 <h1 align="center">Pagination for lists of objects API's</h1>
 
-[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-black.svg)](https://sonarcloud.io/summary/new_code?id=danielLeiteSilva_create-pagination)
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-black.svg)](https://sonarcloud.io/summary/new_code?id=danielLeiteSilva_create-pagination) {align=center}
 
 ------------------------------------
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=danielLeiteSilva_create-pagination&metric=bugs)](https://sonarcloud.io/summary/new_code?id=danielLeiteSilva_create-pagination)
