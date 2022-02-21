@@ -1,4 +1,4 @@
-<center> Pagination for lists of objects API's</center>
+<h1 align="center">Pagination for lists of objects API's</h1>
 
 [![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-black.svg)](https://sonarcloud.io/summary/new_code?id=danielLeiteSilva_create-pagination)
 ------------------------------------
