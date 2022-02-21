@@ -10,8 +10,4 @@ const result = pagination.getList()
 
 const qtd = pagination.getLength()
 
-console.log(qtd)
-
-
-
 writeFileSync("dad.json", resultPage)
