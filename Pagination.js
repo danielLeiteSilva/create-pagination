@@ -11,47 +11,47 @@ class Pagination {
 
         this._listOfObjects = listOfObjects
         this._mountPages = mountPages
-        this._jsonConverted = {}
+        this._listConverted = {}
         this._countPages = 0
         this._allPages = {}
 
-        this.paginationJson()
+        this.paginationList()
     }
 
     convertFileInJson() {
         const base64 = readFileSync(this._listOfObjects, { encoding: 'base64' })
         const string = Buffer.from(base64, 'base64').toString()
-        this._jsonConverted = JSON.parse(string)
+        this._listConverted = JSON.parse(string)
     }
 
-    paginationJson() {
+    paginationList() {
         this.convertFileInJson()
 
-        let list = []
-        let qtdPag = Math.ceil((this._jsonConverted.length / this._mountPages))
+        let listsOfObjects = []
+        let quantityOfPages = Math.ceil((this._listConverted.length / this._mountPages))
 
         let q = this._mountPages
         let aux = 0
-        for (let index = 0; index < qtdPag; index++) {
-            let data = this._jsonConverted.slice(aux, q)
-            list.push(data)
+        for (let index = 0; index < quantityOfPages; index++) {
+            let data = this._listConverted.slice(aux, q)
+            listsOfObjects.push(data)
             aux = q
             q = q + this._mountPages
         }
 
-        this._countPages = list.length
-        this._allPages = list
+        this._countPages = listsOfObjects.length
+        this._allPages = listsOfObjects
     }
 
-    getResultJson() {
+    getList() {
         return this._allPages
     }
 
-    getResultString() {
+    getString() {
         return JSON.stringify(this._allPages)
     }
 
-    getLengthPagination() {
+    getLength() {
         return this._countPages
     }
 

@@ -4,11 +4,11 @@ const Pagination = require('./Pagination')
 
 const pagination = new Pagination("dados.json", 10)
 
-const resultPage = pagination.getResultString()
+const resultPage = pagination.getString()
 
-const result = pagination.getResultJson()
+const result = pagination.getList()
 
-const qtd = pagination.getLengthPagination()
+const qtd = pagination.getLength()
 
 console.log(qtd)
 
