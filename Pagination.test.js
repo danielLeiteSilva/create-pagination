@@ -15,7 +15,7 @@ describe("Pagination", () =>{
     })
 
     it("Should be validated object is string", () =>{
-        let typeOfFile = pagination.getResultString()
+        let typeOfFile = pagination.getString()
         chai.assert.typeOf(typeOfFile, 'string')
     })
 
@@ -24,11 +24,11 @@ describe("Pagination", () =>{
         chai.assert.equal(validIntanceResponse, 'Essa é uma instância')
     })
     it("Should be validated length pages is number", () =>{
-        let isNumber = pagination.getLengthPagination()
+        let isNumber = pagination.getLength()
         chai.assert.typeOf(isNumber, 'number')
     })
     it("Should be validated if object exists", () =>{
-        let objectList = pagination.getResultJson()
+        let objectList = pagination.getList()
         chai.assert.exists(objectList)
     })
 
